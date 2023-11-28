@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ccxp {
+    height: 118px;
+    background-color: #FFD900;
+}
+#img-ccxp{
+    width: 202px;
+    height: 63px;
+    margin-top: 27px;
+    margin-left: 58px;
+    margin-bottom: 27px;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.texto {
+    background-color: #514988;
+    width: 802px;
+    height: 494px;
+
+}
+
+#video {
+    margin-top: 137px;
+    width: 670px;
+}
