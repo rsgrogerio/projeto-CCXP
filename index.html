@@ -7,18 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+    <!--Header com a Logomarca da CCXP-->
     <header class="ccxp">
         <img id="img-ccxp" src="img/ccxp22.svg" alt="Erro">
-
     </header>
+
+    <!--Area do texto e com o cronometro + video-->
     <div class="container">
         <div class="texto">
-            <h1>
-                REVIVA O ÉPICO
-                <p>
-                    DE 01 A 04 DE DEZEMBRO
-                </p>
-            </h1>
+           <div class="informe">        
+              <p id="p1">
+                REVIVA O ÉPICO 
+              </p>    
+              <p id="p2">    
+                DE 01 A 04 DE DEZEMBRO
+              </p>
+            </div>        
             <p id="contexto">
                 Você consegue sentir? É aquela sensação de <br>
                 finalmente poder falar em voz alta: "estamos <br>
@@ -31,10 +35,45 @@
                 aventuras épicas a cada passo pelos nossos <br>
                 corredores.
             </p>
-
         </div>
-        <video id="video" src="mp4/arlequina.mp4"></video>
+        <div>
+            <div class="timer">
+                <div id="dias">03D</div>
+                <div id="horas">01H</div>
+                <div id="minutos">01M</div>
+                <div id="segundos">01S</div>
+            </div>
+            <div id="text-emotion">
+                PARA A MAIOR CCXP DE TODOS OS TEMPOS
+            </div>
+            <video id="video" controls loop><source src="mp4/arlequina.mp4" type="video/mp4"></video>
+        </div> 
     </div>
+
+    <!--Texto para garantir os ingressos-->
+    <p id="text-ingresso">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
+
+    <!--Sessão dos tickets e botão de garantir o ingresso-->
+  <div class="container">
+    <div class="card-ingresso">   
+        <section class="card">
+          <img src="img/quinta.svg" alt="Erro">
+        </section>
+        <section class="card">
+          <img src="img/sexta.svg" alt="Erro">
+        </section>
+        <section class="card">
+          <img src="img/sabado.svg" alt="Erro">
+        </section>
+        <section class="card">
+          <img src="img/domingo.svg" alt="Erro">
+        </section>  
+    </div>
+    <div class="btn-ingress">
+        <input id="btn-ingresso" type="button" value="GARANTA O SEU!">
+    </div> 
+  </div>
+
 
     <script src="js/index.js"></script>
 </body>
